@@ -1,11 +1,11 @@
-package shared
+package e81
 
 import (
 	"fmt"
 	"math/rand"
 )
 
-func e81() {
+func Main() {
 	x, y := rand.Intn(10), rand.Intn(10)
 
 	fmt.Println("Value of x: ", x)
